@@ -5,10 +5,7 @@
   "scripts": {
     "start": "webpack --mode development",
     "build": "webpack --mode production",
-    // Si quieres usar Jest para las pruebas, deja solo esta línea:
-    "test": "jest"
-    // O, si prefieres tu script de ejemplo más Jest, podrías combinar:
-    // "test": "echo \"Ejecutando pruebas...\" && jest"
+    "test": "echo \"Ejecutando pruebas...\" && jest"
   },
   "dependencies": {
     "axios": "^0.21.1",
