@@ -7,6 +7,12 @@
     "build": "webpack --mode production"
     "test": "echo \"Ejecutando pruebas...\" && exit 0"
     "test": "jest"
+  {
+  "scripts": {
+    "test": "jest"
+  }
+}
+
 
   },
   "dependencies": {
